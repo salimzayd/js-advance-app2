@@ -17,7 +17,7 @@ export const ChannelContext = createContext()
 function App() {
   return (
     <div className="App">
-      <Usereducer />
+      {/* <Usereducer />
       <Complexreducer />
 
 
@@ -27,11 +27,11 @@ function App() {
                 <Contexta />
           </ChannelContext.Provider>
         </NameContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
 
       <Themechange />
       {/* <Counter /> */}
-      <Fetching />
+      {/* <Fetching /> */}
 
   
 

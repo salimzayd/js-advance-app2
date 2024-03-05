@@ -20,7 +20,7 @@ const Themechange = () =>{
 
 
     return(
-        <div style={{backgroundColor:count === 4 ? "blue":"white"}}>
+        <div style={{backgroundColor:count %3 === 0 ? "blue":"white"}}>
             <h1>count is{count}</h1>
             <button onClick={cchnage}> + </button>
             <button onClick={decre}> - </button>
