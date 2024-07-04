@@ -26,7 +26,7 @@
 
 
 async function datafetching(){
-    const API = "https://jsonplaceholder.typicode.com/todos/1"
+    const API = "https://api.postalpincode.in/pincode/110001"
     const data  = await fetch(API);
     const jsondata = await data.json();
     console.log(jsondata)
